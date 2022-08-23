@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.custom-elements,
+.custom-elements-using-templates {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
+
+.custom-element h2 {
+    color: red;
+}
+
+.custom-button-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

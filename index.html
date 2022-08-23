@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Staniel Petrov">
+    <title>Web Components - Native</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="custom-elements">
+        <h1>Custom Elements:</h1>
+        <custom-element></custom-element>
+        <custom-element-closed></custom-element-closed>
+        <custom-element-no-root></custom-element-no-root>
+        <custom-element-lifecycles title="Custom Element Lifecycles"></custom-element-lifecycles>
+        <div class="custom-button-wrapper">
+            <h2>Custom Button:</h2>
+            <button is="custom-button">Button</button>
+            <button>Button</button>
+        </div>
+    </section>
+
+    <section class="custom-elements-using-templates">
+        <h1>Custom Elements Using Templates:</h1>
+        <blog-post-list id="blog-post-list"></blog-post-list>
+    </section>
+
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
