@@ -60,7 +60,7 @@ class CustomElementLifecycles extends HTMLElement {
 
     shadowRoot.innerHTML = /*html*/ `
       <div class="custom-element-lifecycles" style="display: flex; align-items: center; gap: 1rem;">
-        <h2 style="margin: 0;">Custom Element - Lyfecycles</h2>
+        <h2 style="margin: 0;">Custom Element - Lifecycles</h2>
         <button onclick="document.querySelector('custom-element-lifecycles').remove()">Unmount Element</button>
         <input type="text" placeholder="Change title attribute" onchange="(function(e){ e.preventDefault(); document.querySelector('custom-element-lifecycles').title = e.target.value === '' ? null : e.target.value; })(event)"/>
       </div>
